@@ -33,12 +33,3 @@ client_secret*.json
 # Wipplank runtime data (local-only cache/config copies, if ever dumped here)
 *.sqlite
 *.sqlite-journal
-
-# Node / Next.js landing site
-wipplank-landing/node_modules/
-wipplank-landing/.next/
-wipplank-landing/out/
-wipplank-landing/.env*
-wipplank-landing/next-env.d.ts
-node_modules/
-.next/

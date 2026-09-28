@@ -5,7 +5,7 @@ Fun CLI for email on macOS + Linux. Human-friendly output + `--json` everywhere 
 ## Stack
 
 - Python >= 3.11, `uv`, `typer`, `rich`, `keyring`, `fastmcp` (optional)
-- Layout: `src/wipplank/` package, `tests/` outside `src/`, landing site in `wipplank-landing/`
+- Layout: `src/wipplank/` package, `tests/` outside `src/`
 - Must run on macOS + Linux via `uv tool install` / `uv run`
 
 ## Commands
@@ -25,7 +25,6 @@ WIPPLANK_LIVE=1 uv run pytest -m live  # real mailbox only, read-mostly
 - Message IDs are stable `UIDVALIDITY:UID` (legacy plain UID resolves; stale IDs fail loud)
 - Reads use `BODY.PEEK` — `check` never marks mail read
 - Update `README.md` on every product change (commands, flags, ID format, config paths)
-- Update `wipplank-landing/` only when the contract changes (new commands, start sequence)
 - Secrets: OS keyring, service `wipplank`, key `account:<name>` — never plaintext on disk,
   except Gmail OAuth `client_id`/`client_secret` (Desktop-app public client, see `SECURITY.md`)
 

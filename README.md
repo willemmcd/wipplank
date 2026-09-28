@@ -150,8 +150,6 @@ WIPPLANK_LIVE=1 uv run pytest -m live   # real mailbox: read-only + flag round-t
 ## Contributing
 
 See `AGENTS.md` (agent + contributor guide) and `docs/DEVLOG.md` (history).
-Landing site lives in `wipplank-landing/` — replace the placeholder
-`https://github.com/` URLs in `app/page.tsx` with the real repo URL.
 
 ## License
 

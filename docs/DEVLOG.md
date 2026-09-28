@@ -3,8 +3,8 @@
 Historical agent working notes (pre-open-source). Kept for context; the
 curated contributor guide is `AGENTS.md` at the repo root.
 
-> Note (2026-09-18): `website/` below means `wipplank-landing/`;
-> `website-v1-fun/` was an earlier archived build and is not in this repo.
+> Note: `website/` below was the landing site (later `wipplank-landing/`,
+> now a separate project, not in this repo).
 
 ## Project
 
