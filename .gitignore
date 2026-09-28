@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+uv.lock.tmp
+
+# Test / coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+*.cover
+
+# macOS / editors
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Local config / secrets (never commit real credentials)
+.env
+.env.*
+*.pem
+*.key
+credentials*.json
+client_secret*.json
+
+# Wipplank runtime data (local-only cache/config copies, if ever dumped here)
+*.sqlite
+*.sqlite-journal
+
+# Node / Next.js landing site
+wipplank-landing/node_modules/
+wipplank-landing/.next/
+wipplank-landing/out/
+wipplank-landing/.env*
+wipplank-landing/next-env.d.ts
+node_modules/
+.next/
